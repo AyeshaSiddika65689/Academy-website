@@ -1,0 +1,113 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color:rgb(4, 25, 63);
+    height: 5rem;
+}
+header img{
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 14px;
+}
+.header-tag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+.header-tag a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+.header-tag a:hover{
+    background-color: rgb(26, 103, 190);
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding: 100px;
+}
+.sidebar li{
+    list-style:circle;
+    margin-bottom: 14px;
+}
+
+
+.login{
+    float: right;
+    border:none;
+    background-color: rgba(241, 239, 235, 0.658);
+    height: 18em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+
+.login h2{
+    text-align: center;
+}
+.login input{
+    height: 1.5em;
+}
+.login #login-button{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    border: none;
+    background-color: rgb(3, 46, 126);
+}
+.login-misc a{
+    text-decoration: none;
+}
+.container{
+    margin-top: 7%;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.p-box{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    height: 15em;
+    padding: 5px;
+    background-color: rgba(109, 155, 240, 0.548);
+    color: white;
+}
+
+.p-box h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.p-box{
+    line-height: 1em;
+    text-align: justify;
+}
+.p-box a{
+    text-decoration: none;
+    color:rgb(3, 3, 65);
+}
+
+/* footer */
+footer{
+    color: white;
+    height: 1.5em;
+    margin-top: 28%;
+}
+footer h3{
+    text-align: center;
+}
